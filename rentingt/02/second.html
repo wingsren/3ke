@@ -1,0 +1,263 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>BUSINESS CASUAL</title>
+		<style>
+			body{
+				background: linear-gradient(rgba(47,23,15,.65),rgba(47,23,15,.65)),url(images/bg.jpg) no-repeat 0 0;
+                background-attachment: fixed;
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                margin: 0 auto;
+                text-align: center;
+                box-sizing: border-box;
+			}
+			
+			.header{
+				width: 100%;
+				margin: 0 auto;
+				display: block;
+				margin-top: 5rem;
+                margin-bottom: 5rem;
+                box-sizing: border-box;
+			}
+			.title{
+                text-align:center;
+			}
+			.title1{
+                font-size: 2rem;
+                font-weight:800;
+                color: #e6a756!important;
+                margin-bottom: 1rem!important;
+                text-transform: uppercase;
+                line-height: 3.3rem;
+                font-family: Raleway;
+			}
+			.title2{
+				font-size: 5.2rem;
+                font-weight:100;
+                line-height: 4rem;
+                font-family: Raleway;
+                color: #fff!important;
+			}
+			.nav{
+				width: 100%;
+				height: 100px;
+				background-color: rgba(47,23,15,.9);
+				box-sizing: border-box;
+				margin: 100px auto;
+				display: flex;
+				justify-content: center;
+				align-items:center;
+			}
+			.container{
+				width: 100%;
+				height: 70%;
+				margin: 0 auto;
+			}
+			.container ul{
+				list-style-type: none;
+			    display: flex;
+			    justify-content: center;
+			    align-items: center;
+			    flex-direction: row;
+			    padding-left: 0;
+                margin-bottom: 0;
+                box-sizing: border-box;
+			}
+			.container li{
+				padding-right: 2rem!important;
+				text-align: center;
+				margin-top: 10px;
+			}
+			.container a{
+				text-decoration: none;
+				color: #FFFFFF;
+				font-weight: 800;
+			    font-size: 27px;
+			    font-family: Raleway;
+			    line-height: 1rem;
+			}
+            .container a:hover{
+	            color:gray;
+            }
+			.active{
+			    color: #e6a756;
+			    font-weight: 800;
+			    font-size: 28px;
+			    font-family: Raleway;
+			    line-height: 1rem;
+			}
+	   .clearfix::after {
+                 display: block;
+                clear: both;
+                content: "";
+			}
+			.main{
+				margin: 0 auto;
+				width: 100%;
+				height: 60%;
+                padding-right: 15px;
+                padding-left: 15px;
+                display: inline-block;
+                box-sizing: border-box;
+			}
+			.main-left{
+				width: 30%;
+				height: 23%;
+				background-color: rgba(255,255,255,.85);
+				text-align: center;
+				border-radius:10px;
+				box-sizing: border-box;
+				margin-left: 18%;
+				position: relative;
+				margin-top: 100px;
+				
+				
+			}
+			.main-left h2{
+				margin-bottom: 0.9rem!important;
+				font-family: Raleway;
+			        font-size: 2rem;
+				color:#333;
+			        font-weight: 500;
+                                line-height: 1.5;
+			}
+			.upper{
+				font-size: 1rem;
+                                font-weight: 800;
+				color:#333;
+			}
+			.lower{
+				font-size: 3rem;
+                                font-weight: 100;
+				color:#333;
+			}
+			.main-left p{
+				line-height: 1.75;
+				margin-top: 0 auto;
+				padding: 6%;
+				
+				margin-bottom: 50px;
+				color:#333;
+			}
+			.main-right{
+				margin-top: -500px;
+				margin-right: 15%;
+			
+			}
+			.main-right img{
+				    max-width: 100%;
+				    float: right;
+				    
+				  
+			}
+			.btn{
+				width: 45%;
+				height: 10%;
+				margin: 0 auto;
+				margin-bottom:-30px;
+                                background-color: #e6a756;
+                                text-align: center;
+                                border-radius: 5px;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                }
+            .btn-in{
+                text-decoration: none;
+                font-weight: 600;
+                font-size: 18px;
+                padding: 20px;
+                white-space: nowrap;
+                vertical-align: middle;
+                color:white;
+			}
+	    .bottom{
+                width:100%;
+		height: 40%;
+		margin: 5rem auto;
+	        padding-top: 5rem;
+                padding-bottom: 5rem;
+                background-color: rgba(230,167,86,.9);
+                box-sizing: border-box;
+                display: flex;
+                justify-content: center;
+			}
+	   .test h2{
+		margin-top: -10px;
+			}
+		.test{
+				width: 45%;
+				margin: 20px auto;
+				position: relative;
+                                padding: 3rem;
+                                margin: .5rem;
+                                border:7px #D2691E double;
+                                background-color: rgba(255,255,255,.85);
+                                text-align: center!important;
+                                box-sizing: border-box;
+                                border-radius: .35rem!important;
+				font-family: Raleway;
+				color:#333;
+                
+			}
+		    .footer{
+				width: 100%;
+				padding-bottom: 2rem!important;
+				padding-top: 2rem!important;
+				margin: 0 auto;
+				background-color: rgba(47,23,15,.9);
+			    color:white;
+				font-size: 18px;
+				text-align: center;
+				font-family: Raleway;
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<h1 class="title">
+				<div class="title1">A FREE BOOTSTRAP 4 BUSINESS THEME</div>
+				<div class="title2">BUSINESS CASUAL</div>
+			</h1>
+			<div class="nav">
+				<div class="container">
+					<ul>
+						<li class="active">Home</li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Products</a></li>
+						<li><a href="#">Store</a></li>
+					</ul>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div class="main">
+			<div class="main-left">
+				<h2><span class="upper">Fresh Coffee</span><br><span class="lower">Worth Drinking</span></h2>
+				<p>
+					Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+				</p>
+				 <div class="btn">
+                 <a class="btn-in" href="#">Visit Us Today!</a>
+                 </div>
+			</div>
+			<div class="main-right"><img src="images/intro.jpg" width="60%" height="600"></div>
+		</div>
+		<div class="bottom">
+			<div class="test">
+				<h2 >
+                <span class="upper">Our Promise</span><br>
+                <span class="lower">To You</span>
+              </h2>
+              <p>When you walk into our shop to start your day, we are dedicated to providing you with friendly service,welcoming atmosphere,and above all else,excellent products made with the highest quality ingredient. If you are not satisfied, please let us know we will do whatever we can to make things right!</p>
+			</div>
+		</div>
+		<div class="footer">
+			<p>Copyright © Your Website 2018</p>
+		</div>
+	</body>
+</html>
